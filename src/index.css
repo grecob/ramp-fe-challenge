@@ -92,7 +92,6 @@ hr.RampBreak--l {
 
 .RampInputSelect--dropdown-container {
   display: none;
-  position: fixed;
   width: 100%;
   max-width: 700px;
   border: 1px solid var(--color-darker-shade);
@@ -139,6 +138,7 @@ hr.RampBreak--l {
 
 .RampInputCheckbox--label-disabled {
   cursor: progress;
+  display: none;
 }
 
 .RampInputCheckbox--label-checked:before {
@@ -147,10 +147,6 @@ hr.RampBreak--l {
   height: 100%;
   border-color: var(--color-constructive);
   background-color: var(--color-constructive);
-}
-
-.RampInputCheckbox--input {
-  display: none;
 }
 
 .RampButton {
